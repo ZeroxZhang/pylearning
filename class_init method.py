@@ -21,7 +21,9 @@ class Student2:
         print(self.name,"is",self.age)
 
 s2 = Student2(name="zerox",age="28") #要把初始化变量放在赋予类的括号里
+s3 = Student2("robbie",27) #也可以直接把相应的变量写进去，不用写name=
 s2.walk()
+s3.walk()
 
 
 
